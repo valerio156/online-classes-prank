@@ -1,6 +1,6 @@
 
 //Change this interval to your choice
-INTERVAL = 8;
+INTERVAL = 0;
 
 
 function start()
@@ -24,7 +24,6 @@ function teams()
 {
    setTimeout(function(){
        try{
-           document.getElementById("microphone-button").click();
        document.getElementById("video-button").click();
        }
        
